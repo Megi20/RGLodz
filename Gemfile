@@ -1,12 +1,13 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-
+ruby "2.1.5p273"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 
 gem 'carrierwave'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
+gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
